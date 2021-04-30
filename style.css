@@ -1,5 +1,5 @@
 body {
-  font-family: a-otf-ryumin-pr6n, serif;
+  font-family: "a-otf-ryumin-pr6n", "Times New Roman", serif;
   src: url("./font/A-OTF-RyuminPr6-Bold.otf") format("otf"),
     url("./font/A-OTF-RyuminPr6-ExBold.otf") format("otf"),
     url("./font/A-OTF-RyuminPr6-Heavy.otf") format("otf"),
