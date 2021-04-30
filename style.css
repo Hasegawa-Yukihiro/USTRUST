@@ -1,13 +1,17 @@
 @font-face {
-  font-family: "a-otf-ryumin-pr6n", "Times New Roman", serif;
+  font-family: "a-otf-ryumin-pr6n";
   src: url("./font/A-OTF-RyuminPr6-Bold.otf") format("otf"),
     url("./font/A-OTF-RyuminPr6-ExBold.otf") format("otf"),
     url("./font/A-OTF-RyuminPr6-Heavy.otf") format("otf"),
     url("./font/A-OTF-RyuminPr6-Light.otf") format("otf"),
     url("./font/A-OTF-RyuminPr6-Medium.otf") format("otf"),
     url("./font/A-OTF-RyuminPr6-Regular.otf") format("otf"),
-    url("./font/A-OTF-RyuminPr6-Ultra.otf") format("otf"),
-    url("./font/Times\ New\ Roman.ttf") format("ttf"),
+    url("./font/A-OTF-RyuminPr6-Ultra.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Times New Roman";
+  src: url("./font/Times\ New\ Roman.ttf") format("ttf"),
     url("./font/Times\ New\ Roman\ Bold.ttf") format("ttf"),
     url("./font/Times\ New\ Roman\ Bold\ Italic.ttf") format("ttf"),
     url("./font/Times\ New\ Roman\ Italic.ttf") format("ttf");
