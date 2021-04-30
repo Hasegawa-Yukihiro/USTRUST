@@ -1,4 +1,4 @@
-body {
+@font-face {
   font-family: "a-otf-ryumin-pr6n", "Times New Roman", serif;
   src: url("./font/A-OTF-RyuminPr6-Bold.otf") format("otf"),
     url("./font/A-OTF-RyuminPr6-ExBold.otf") format("otf"),
@@ -11,6 +11,10 @@ body {
     url("./font/Times\ New\ Roman\ Bold.ttf") format("ttf"),
     url("./font/Times\ New\ Roman\ Bold\ Italic.ttf") format("ttf"),
     url("./font/Times\ New\ Roman\ Italic.ttf") format("ttf");
+}
+
+body {
+  font-family: "a-otf-ryumin-pr6n", "Times New Roman", serif;
 }
 
 h1 {
