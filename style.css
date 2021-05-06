@@ -416,6 +416,10 @@ nav li a {
   margin-bottom: 50px;
 }
 
+.accessContentItem img {
+  width: 100%;
+}
+
 /* <--location--> */
 
 .city {
