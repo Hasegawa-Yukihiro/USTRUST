@@ -1,239 +1,311 @@
 <!DOCTYPE html>
 <html lang="js">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>USTRUST</title>
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <img src="./img/logo.png" alt="ECREDE logo">
-    <div class="header__text">
-      <p>【公式】ECREDE 蒲田 EAST│京急本線「梅屋敷」駅徒歩 4 分<br>株式会社 USTRUST が贈る新築分譲マンション</p>
-      <div class="header__btn">
-        <a href="#"><img src="./img/documentRequestBtn.jpg" alt="資料請求"></a>
-        <a href="#"><img src="./img/contactBtn.jpg" alt="お問い合わせ"></a>
-      </div>
-    </div>
-  </header>
-  <nav>
-    <ul>
-      <li><a href="./index.html">トップ</a></li>
-      <li><a href="./design.html">デザイン</a></li>
-      <li><a href="./access.html">アクセス</a></li>
-      <li><a href="./location.html">ロケーション</a></li>
-      <li><a href="./plan.html">間取り</a></li>
-      <li><a href="#">設備・仕様</a></li>
-    </ul>
-  </nav>
-  <main>
-    <img src="./img/equipment-top.jpg" alt="EQUIPMENT">
-    <div class="kitchen">
-      <h4>KITCHEN</h4>
-      <div class="kitchen__wrapper">
-        <div class="kitchen__contents">
-          <div class="kitchen__contents__item">
-            <img src="./img/stove.jpg" alt="stove">
-            <p class="content-title">2口ガスコンロ</p>
-            <p>2口ガスコンロのバーナーには、安全センサーを搭載。火災を未然に防ぐので安心です。</p>
-          </div>
-          <div class="kitchen__contents__item">
-            <img src="./img/water-faucet.jpg" alt="water-fauceta">
-            <p class="content-title">シングルレバー混合水栓</p>
-            <p>レバーハンドルを片手で操作するだけで水量や温度を調節できる、混合水栓を採用しました。</p>
-          </div>
-          <div class="kitchen__contents__item">
-            <img src="./img/tomato.jpg" alt="tomato">
-            <p class="content-title">人造大理石カウンター</p>
-            <p>美しくなめらかな質感で、耐久性・清掃性にも優れた人造大理石製のカウンターです。</p>
-          </div>
-          <div class="kitchen__contents__item">
-            <img src="./img/range-food.jpg" alt="range-food">
-            <p class="content-title">レンジフード</p>
-            <p>吸引力に優れた整流板が煙を逃さずキャッチ。高品位ホーローで油汚れも簡単に拭き取れます。</p>
-          </div>
-          <div class="kitchen__contents__item">
-            <img src="./img/sink.jpg" alt="sink">
-            <p class="content-title">シンク</p>
-            <p>柔らかなふくらみを持たせることで、大きな食器やフラインパン等も洗いやすい形状。</p>
-          </div>
-          <div class="kitchen__contents__item">
-            <img src="./img/seismic-latch.jpg" alt="eismic-latch">
-            <p class="content-title">耐震ラッチ</p>
-            <p>揺れを感知するとストッパーがかかる耐震ラッチを採用。地震時に食器が飛び出すのを防ぎます。</p>
-          </div>
-        </div>
-        <img src="./img/kitchen.jpg" alt="kitchen">
-      </div>
-    </div>
-    <div class="bathroom">
-      <h4>BATHROOM</h4>
-      <div class="bathroom__wrapper">
-        <img src="./img/bathroom.jpg" alt="bathroom">
-        <div class="bathroom__contents">
-          <div class="bathroom__contents__item">
-            <img src="./img/thermostat.jpg" alt="thermostat">
-            <p class="content-title">サーモスタット式混合水栓</p>
-            <p>レバーひとつで手軽に温度調整可能なサーモスタット機能付きを採用しました。</p>
-          </div>
-          <div class="bathroom__contents__item">
-            <img src="./img/dryer.jpg" alt="dryer">
-            <p class="content-title">浴室換気乾燥暖房機</p>
-            <p>換気機能や暖房、涼風機能はもちろん、浴室をドライルームとして使える乾燥機能も搭載。</p>
-          </div>
-          <div class="bathroom__contents__item">
-            <img src="./img/laundry-pipe.jpg" alt="laundry-pipe">
-            <p class="content-title">ランドリーパイプ</p>
-            <p>バスタオルや洗濯物を浴室に干す際に重宝する、ランドリーパイプを設置しました。</p>
-          </div>
-          <div class="bathroom__contents__item">
-            <img src="./img/shower-head.jpg" alt="shower-head">
-            <p class="content-title">メタル調シャワーヘッド</p>
-            <p>シンプルなデザインで使いやすいシャワーヘッドを採用。</p>
-          </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>USTRUST</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./img/logo.png" alt="ECREDE logo" />
+      <div class="header__text">
+        <p>
+          【公式】ECREDE 蒲田 EAST│京急本線「梅屋敷」駅徒歩 4 分<br />株式会社
+          USTRUST が贈る新築分譲マンション
+        </p>
+        <div class="header__btn">
+          <a href="https://lp.ustrust.jp/LP=217"
+            ><img src="./img/documentRequestBtn.jpg" alt="資料請求"
+          /></a>
+          <a href="https://lp.ustrust.jp/LP=221"
+            ><img src="./img/contactBtn.jpg" alt="お問い合わせ"
+          /></a>
         </div>
       </div>
-    </div>
-    <div class="sanitary_lavatory">
-      <h4>SANITARY<span>&</span>LAVATORY</h4>
-      <div class="sanitary_lavatory__wrapper">
-        <div class="toilet-content">
-          <div class="toilet-content__list">
-            <img src="./img/toilet.jpg" alt="温水洗浄機能付暖房便座">
+    </header>
+    <nav>
+      <ul>
+        <li><a href="./index.html">トップ</a></li>
+        <li><a href="./design.html">デザイン</a></li>
+        <li><a href="./access.html">アクセス</a></li>
+        <li><a href="./location.html">ロケーション</a></li>
+        <li><a href="./plan.html">間取り</a></li>
+        <li><a href="#">設備・仕様</a></li>
+      </ul>
+    </nav>
+    <main>
+      <img src="./img/equipment-top.jpg" alt="EQUIPMENT" />
+      <div class="kitchen">
+        <h4>KITCHEN</h4>
+        <div class="kitchen__wrapper">
+          <div class="kitchen__contents">
+            <div class="kitchen__contents__item">
+              <img src="./img/stove.jpg" alt="stove" />
+              <p class="content-title">2口ガスコンロ</p>
+              <p>
+                2口ガスコンロのバーナーには、安全センサーを搭載。火災を未然に防ぐので安心です。
+              </p>
+            </div>
+            <div class="kitchen__contents__item">
+              <img src="./img/water-faucet.jpg" alt="water-fauceta" />
+              <p class="content-title">シングルレバー混合水栓</p>
+              <p>
+                レバーハンドルを片手で操作するだけで水量や温度を調節できる、混合水栓を採用しました。
+              </p>
+            </div>
+            <div class="kitchen__contents__item">
+              <img src="./img/tomato.jpg" alt="tomato" />
+              <p class="content-title">人造大理石カウンター</p>
+              <p>
+                美しくなめらかな質感で、耐久性・清掃性にも優れた人造大理石製のカウンターです。
+              </p>
+            </div>
+            <div class="kitchen__contents__item">
+              <img src="./img/range-food.jpg" alt="range-food" />
+              <p class="content-title">レンジフード</p>
+              <p>
+                吸引力に優れた整流板が煙を逃さずキャッチ。高品位ホーローで油汚れも簡単に拭き取れます。
+              </p>
+            </div>
+            <div class="kitchen__contents__item">
+              <img src="./img/sink.jpg" alt="sink" />
+              <p class="content-title">シンク</p>
+              <p>
+                柔らかなふくらみを持たせることで、大きな食器やフラインパン等も洗いやすい形状。
+              </p>
+            </div>
+            <div class="kitchen__contents__item">
+              <img src="./img/seismic-latch.jpg" alt="eismic-latch" />
+              <p class="content-title">耐震ラッチ</p>
+              <p>
+                揺れを感知するとストッパーがかかる耐震ラッチを採用。地震時に食器が飛び出すのを防ぎます。
+              </p>
+            </div>
           </div>
-          <div class="toilet-content__list">
-            <p class="content-title">温水洗浄機能付<br>暖房便座</p>
-            <p>衛生的に使える温水洗浄機能付暖房万座を採用。</p>
-            <img src="./img/toilet-seat.jpg" alt="便座">
-            <p class="content-title">キレイ便座</p>
-            <p>つなぎ目のない形状と防汚処理を施した便座裏でお掃除ラクラク。</p>
+          <img src="./img/kitchen.jpg" alt="kitchen" />
+        </div>
+      </div>
+      <div class="bathroom">
+        <h4>BATHROOM</h4>
+        <div class="bathroom__wrapper">
+          <img src="./img/bathroom.jpg" alt="bathroom" />
+          <div class="bathroom__contents">
+            <div class="bathroom__contents__item">
+              <img src="./img/thermostat.jpg" alt="thermostat" />
+              <p class="content-title">サーモスタット式混合水栓</p>
+              <p>
+                レバーひとつで手軽に温度調整可能なサーモスタット機能付きを採用しました。
+              </p>
+            </div>
+            <div class="bathroom__contents__item">
+              <img src="./img/dryer.jpg" alt="dryer" />
+              <p class="content-title">浴室換気乾燥暖房機</p>
+              <p>
+                換気機能や暖房、涼風機能はもちろん、浴室をドライルームとして使える乾燥機能も搭載。
+              </p>
+            </div>
+            <div class="bathroom__contents__item">
+              <img src="./img/laundry-pipe.jpg" alt="laundry-pipe" />
+              <p class="content-title">ランドリーパイプ</p>
+              <p>
+                バスタオルや洗濯物を浴室に干す際に重宝する、ランドリーパイプを設置しました。
+              </p>
+            </div>
+            <div class="bathroom__contents__item">
+              <img src="./img/shower-head.jpg" alt="shower-head" />
+              <p class="content-title">メタル調シャワーヘッド</p>
+              <p>シンプルなデザインで使いやすいシャワーヘッドを採用。</p>
+            </div>
           </div>
         </div>
-        <div class="wash-basin-content">
-          <div class="wash-basin-content__list__left">
-            <img src="./img/wash-basin.jpg" alt="洗面台">
+      </div>
+      <div class="sanitary_lavatory">
+        <h4>SANITARY<span>&</span>LAVATORY</h4>
+        <div class="sanitary_lavatory__wrapper">
+          <div class="toilet-content">
+            <div class="toilet-content__list">
+              <img src="./img/toilet.jpg" alt="温水洗浄機能付暖房便座" />
+            </div>
+            <div class="toilet-content__list">
+              <p class="content-title">温水洗浄機能付<br />暖房便座</p>
+              <p>衛生的に使える温水洗浄機能付暖房万座を採用。</p>
+              <img src="./img/toilet-seat.jpg" alt="便座" />
+              <p class="content-title">キレイ便座</p>
+              <p>
+                つなぎ目のない形状と防汚処理を施した便座裏でお掃除ラクラク。
+              </p>
+            </div>
           </div>
-          <div class="wash-basin-content__list__right">
-            <div class="wash-basin-content__list__item">
-              <img src="./img/faucet-lever.jpg" alt="シングルレバー混合水栓">
-              <div>
-                <p class="content-title">シングルレバー<br>混合水栓</p>
-                <p>レバーハンドルを上下左右に動かすだけで、水量や温度の調節ができます。</p>
+          <div class="wash-basin-content">
+            <div class="wash-basin-content__list__left">
+              <img src="./img/wash-basin.jpg" alt="洗面台" />
+            </div>
+            <div class="wash-basin-content__list__right">
+              <div class="wash-basin-content__list__item">
+                <img
+                  src="./img/faucet-lever.jpg"
+                  alt="シングルレバー混合水栓"
+                />
+                <div>
+                  <p class="content-title">シングルレバー<br />混合水栓</p>
+                  <p>
+                    レバーハンドルを上下左右に動かすだけで、水量や温度の調節ができます。
+                  </p>
+                </div>
+              </div>
+              <div class="wash-basin-content__list__item">
+                <img src="./img/bowl.jpg" alt="大容量陶器製ボウル" />
+                <div>
+                  <p class="content-title">大容量陶器製<br />ボウル</p>
+                  <p>
+                    洗面はもちろん、お洗濯にも大容量。陶器の持つ落ち着いた質感も楽しめます。
+                  </p>
+                </div>
+              </div>
+              <div class="wash-basin-content__list__item">
+                <img
+                  src="./img/mirror-cabinet.jpg"
+                  alt="1面鏡ミラーキャビネット"
+                />
+                <div>
+                  <p class="content-title">1面鏡<br />ミラーキャビネット</p>
+                  <p>
+                    鏡の裏には、化粧品や洗面用具・小物を整理しやすい収納スペースを設けております。
+                  </p>
+                </div>
               </div>
             </div>
-            <div class="wash-basin-content__list__item">
-              <img src="./img/bowl.jpg" alt="大容量陶器製ボウル">
-              <div>
-                <p class="content-title">大容量陶器製<br>ボウル</p>
-                <p>洗面はもちろん、お洗濯にも大容量。陶器の持つ落ち着いた質感も楽しめます。</p>
+          </div>
+        </div>
+      </div>
+      <div class="others">
+        <h4>OTHERS</h4>
+        <div class="others__wrapper">
+          <div class="others__wrapper__left">
+            <div class="others__wrapper__list">
+              <img src="./img/lower-leg-holder.jpg" alt="下足入" />
+              <p class="content-title">下足入</p>
+              <p>
+                背の高いブーツなどもしまえるシューズボックス。シングルライフには十分な容量を確保しているため、足元のおしゃれもサポートします。
+              </p>
+            </div>
+            <div class="others__wrapper__list">
+              <img src="./img/closet.jpg" alt="クローゼット" />
+              <p class="content-title">クローゼット</p>
+              <p>
+                各住戸に使い勝手の良いハンガーパイプ付クローゼットを採用。衣類の豊富な方にも安心の収納スペースです。
+              </p>
+            </div>
+          </div>
+          <div class="others__wrapper__right">
+            <div class="others__wrapper__list">
+              <div class="others__wrapper__list__item">
+                <img src="./img/air-conditioner.jpg" alt="冷暖房エアコン" />
+                <p class="content-title">冷暖房エアコン</p>
+                <p>
+                  快適な生活に不可欠な冷暖房エアコンをすべての住戸に標準で装備。白を基調とした居室にすっきりとなじむデザインです。
+                </p>
+              </div>
+              <div class="others__wrapper__list__item">
+                <img
+                  src="./img/bicycle-parking-lot.jpg"
+                  alt="駐輪場・バイク置き場・駐車場"
+                />
+                <p class="content-title">駐輪場・バイク置き場・駐車場</p>
+                <p>
+                  駐輪場とバイク置き場、駐車場も敷地内にしっかり確保。自転車は29台分、バイクは1台分、駐車場は1台分をご用意しています。
+                </p>
               </div>
             </div>
-            <div class="wash-basin-content__list__item">
-              <img src="./img/mirror-cabinet.jpg" alt="1面鏡ミラーキャビネット">
-              <div>
-                <p class="content-title">1面鏡<br>ミラーキャビネット</p>
-                <p>鏡の裏には、化粧品や洗面用具・小物を整理しやすい収納スペースを設けております。</p>
+            <div class="others__wrapper__list">
+              <div class="others__wrapper__list__item">
+                <img src="./img/trash.jpg" alt="24時間対応のごみ置き場" />
+                <p class="content-title">24時間対応のごみ置き場</p>
+                <p>
+                  住人の生活サイクルに合わせて、24時間いつでもごみ出しが可能。忙しい朝に慌てて捨てにいくこともありません。
+                </p>
+              </div>
+              <div class="others__wrapper__list__item">
+                <img src="./img/pet.jpg" alt="ペット飼育化" />
+                <p class="content-title">ペット飼育化</p>
+                <p>
+                  大好きなペットと一緒に暮らせるよう管理規約が設けられています。
+                </p>
+                <p>※ペットの大きさ、数に制限があります。</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="others">
-      <h4>OTHERS</h4>
-      <div class="others__wrapper">
-        <div class="others__wrapper__left">
-          <div class="others__wrapper__list">
-            <img src="./img/lower-leg-holder.jpg" alt="下足入">
-            <p class="content-title">下足入</p>
-            <p>背の高いブーツなどもしまえるシューズボックス。シングルライフには十分な容量を確保しているため、足元のおしゃれもサポートします。</p>
-          </div>
-          <div class="others__wrapper__list">
-            <img src="./img/closet.jpg" alt="クローゼット">
-            <p class="content-title">クローゼット</p>
-            <p>各住戸に使い勝手の良いハンガーパイプ付クローゼットを採用。衣類の豊富な方にも安心の収納スペースです。</p>
-          </div>
+      <div class="structure_security">
+        <h4>STRUCTURE<span>&</span>SECURITY</h4>
+        <img src="./img/structure.png" alt="structure" />
+        <img src="./img/security.jpg" alt="security" />
+      </div>
+      <div class="contactList">
+        <a href="https://lp.ustrust.jp/LP=217">
+          <img src="./img/documentRequestBtn.png" alt="資料請求" />
+        </a>
+        <a href="https://lp.ustrust.jp/LP=219">
+          <img src="./img/vacancy.png" alt="空室状況お問い合わせ" />
+        </a>
+        <a href="https://lp.ustrust.jp/LP=221">
+          <img src="./img/contactBtn.png" alt="お問い合わせ" />
+        </a>
+      </div>
+      <div class="border"></div>
+      <div class="disclaimer">
+        <p>※掲載の環境写真は 2020 年 9 月、11 月に撮影したものです。</p>
+        <p>
+          ※掲載のエントランス完成予想図は計画段階の図面を基に描き起こしたもので、実際とは異なります。
+        </p>
+        <p>
+          予めご了承ください。なお、植栽は特定の季節を特定するものではありません。
+        </p>
+        <p>
+          また、敷地内の植栽の樹種、大きさについては未確定となっており、竣工時には完成予想
+          CG 程度には成長しておりません。周辺の建物は省略しております。
+        </p>
+        <p>
+          ※掲載の室内写真は、モデルルーム B タイプを 2020 年 12
+          月に撮影したものです。一部有償オプションや家具、調度品が含まれており、これらは販売価格に含まれません。
+        </p>
+        <p>
+          当サイトに掲載している写真・画像・図面・データ等については、目的の如何に関わらず、無断転載を固くお断りいたします。
+        </p>
+        <p>これらの著作権は、株式会社 USTRUST または関係当事者に帰属します。</p>
+      </div>
+    </main>
+    <nav>
+      <ul>
+        <li><a href="./index.html">トップ</a></li>
+        <li><a href="./design.html">デザイン</a></li>
+        <li><a href="./access.html">アクセス</a></li>
+        <li><a href="./location.html">ロケーション</a></li>
+        <li><a href="./plan.html">間取り</a></li>
+        <li><a href="#">設備・仕様</a></li>
+      </ul>
+    </nav>
+    <footer>
+      <div class="footer__wrapper">
+        <div class="footer__company">
+          <h4>株式会社 USTRUST</h4>
+          <p>〒171-0021 東京都豊島区西池袋 1-21-7 池袋西口ビル 10F</p>
+          <p>TEL:03-6907-2022 FAX:03-6907-2023</p>
         </div>
-        <div class="others__wrapper__right">
-          <div class="others__wrapper__list">
-            <div class="others__wrapper__list__item">
-              <img src="./img/air-conditioner.jpg" alt="冷暖房エアコン">
-              <p class="content-title">冷暖房エアコン</p>
-              <p>快適な生活に不可欠な冷暖房エアコンをすべての住戸に標準で装備。白を基調とした居室にすっきりとなじむデザインです。</p>
-            </div>
-            <div class="others__wrapper__list__item">
-              <img src="./img/bicycle-parking-lot.jpg" alt="駐輪場・バイク置き場・駐車場">
-              <p class="content-title">駐輪場・バイク置き場・駐車場</p>
-              <p>駐輪場とバイク置き場、駐車場も敷地内にしっかり確保。自転車は29台分、バイクは1台分、駐車場は1台分をご用意しています。</p>
-            </div>
-          </div>
-          <div class="others__wrapper__list">
-            <div class="others__wrapper__list__item">
-              <img src="./img/trash.jpg" alt="24時間対応のごみ置き場">
-              <p class="content-title">24時間対応のごみ置き場</p>
-              <p>住人の生活サイクルに合わせて、24時間いつでもごみ出しが可能。忙しい朝に慌てて捨てにいくこともありません。</p>
-            </div>
-            <div class="others__wrapper__list__item">
-              <img src="./img/pet.jpg" alt="ペット飼育化">
-              <p class="content-title">ペット飼育化</p>
-              <p>大好きなペットと一緒に暮らせるよう管理規約が設けられています。</p>
-              <p>※ペットの大きさ、数に制限があります。</p>
-            </div>
-          </div>
+        <div class="footer__license">
+          <p>国土交通大臣(2)第 8243 号</p>
+          <p>(公社)全日本不動産協会会員</p>
+          <p>(公社)不動産保証協会会員</p>
+        </div>
+        <div class="footer__call">
+          <p>お問い合わせは(株) USTRUST</p>
+          <h3>0120-970-290</h3>
         </div>
       </div>
-    </div>
-    <div class="structure_security">
-      <h4>STRUCTURE<span>&</span>SECURITY</h4>
-      <img src="./img/structure.png" alt="structure">
-      <img src="./img/security.jpg" alt="security">
-    </div>
-    <div class="contactList">
-      <img src="./img/documentRequestBtn.png" alt="資料請求">
-      <img src="./img/vacancy.png" alt="空室状況お問い合わせ">
-      <img src="./img/contactBtn.png" alt="お問い合わせ">
-    </div>
-    <div class="border"></div>
-    <div class="disclaimer">
-      <p>※掲載の環境写真は 2020 年 9 月、11 月に撮影したものです。</p>
-      <p>※掲載のエントランス完成予想図は計画段階の図面を基に描き起こしたもので、実際とは異なります。</p>
-      <p>予めご了承ください。なお、植栽は特定の季節を特定するものではありません。</p>
-      <p>また、敷地内の植栽の樹種、大きさについては未確定となっており、竣工時には完成予想 CG 程度には成長しておりません。周辺の建物は省略しております。</p>
-      <p>※掲載の室内写真は、モデルルーム B タイプを 2020 年 12 月に撮影したものです。一部有償オプションや家具、調度品が含まれており、これらは販売価格に含まれません。</p>
-      <p>当サイトに掲載している写真・画像・図面・データ等については、目的の如何に関わらず、無断転載を固くお断りいたします。</p>
-      <p>これらの著作権は、株式会社 USTRUST または関係当事者に帰属します。</p>
-    </div>
-  </main>
-  <nav>
-    <ul>
-      <li><a href="./index.html">トップ</a></li>
-      <li><a href="./design.html">デザイン</a></li>
-      <li><a href="./access.html">アクセス</a></li>
-      <li><a href="./location.html">ロケーション</a></li>
-      <li><a href="./plan.html">間取り</a></li>
-      <li><a href="#">設備・仕様</a></li>
-    </ul>
-  </nav>
-  <footer>
-    <div class="footer__wrapper">
-      <div class="footer__company">
-        <h4>株式会社 USTRUST</h4>
-        <p>〒171-0021 東京都豊島区西池袋 1-21-7 池袋西口ビル 10F</p>
-        <p>TEL:03-6907-2022 FAX:03-6907-2023</p>
-      </div>
-      <div class="footer__license">
-        <p>国土交通大臣(2)第 8243 号</p>
-        <p>(公社)全日本不動産協会会員</p>
-        <p>(公社)不動産保証協会会員</p>
-      </div>
-      <div class="footer__call">
-        <p>お問い合わせは(株) USTRUST</p>
-        <h3>0120-970-290</h3>
-      </div>
-    </div>
-  </footer>
-</body>
+    </footer>
+  </body>
 </html>
